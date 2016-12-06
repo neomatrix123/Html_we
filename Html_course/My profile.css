@@ -1,0 +1,59 @@
+	
+	#background {
+		background: url(background.gif) repeat 5% 5%;
+		position: absolute;
+		
+		top:0; left:0; right:0; bottom:0;
+		z-index:100;
+	}
+	
+	#midground {
+		background: url(midground.png) repeat 20% 20%;
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		z-index: 100;
+	}
+
+
+
+	#foreground {
+		background: url(foreground.png) repeat 90% 110%;
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		z-index: 200;
+	}
+	
+	#pagewrap {
+		width: 720px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 300;
+		background: rgba(0,0,0,0.7);
+		overflow: hidden;
+	}
+	
+	li {
+		font-family:Arial; 
+		font-size:15px;
+	}
+
+	em {
+		font-family:Helvetica; 
+		font-size:14px;
+	}
+
+	strong {
+		color:green;
+	}
+	
+	div.intro {
+		color:white;
+		text-align: center;
+	}
+	
+	div.maintext {
+		margin-left: 150px;
+		color:white;
+	}
+	
+	
